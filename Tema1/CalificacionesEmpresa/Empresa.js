@@ -5,13 +5,13 @@ var db = require('./db'); //Establece la conexion con la base de datos
 
 
 var empresaSchema = new mongoose.Schema({
-  nombre: String,
+  _id: String,
   ciudad: String,
   pais: String
 });
 
 empresaSchema.methods.toString = function () {
-  return this.nombre + " ("+this.ciudad+", "+this.pais+")";
+  return this._id + " ("+this.ciudad+", "+this.pais+")";
 }
 
 
