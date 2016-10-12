@@ -1,4 +1,4 @@
-//
+//Programa principal que permite manejar la base de datos
 //@Ref http://javabeat.net/nodejs-mongodb/
 const readline = require('readline');
 const db = require('./db.js');
