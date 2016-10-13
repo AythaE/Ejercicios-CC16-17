@@ -2,6 +2,10 @@ language: node_js
 node_js:
   - "node"
   - "6"
+#Para añadir el servicio de base de datos
+#@Ref https://docs.travis-ci.com/user/database-setup/#MongoDB
+services:
+  -mongodb
 before_install:
-  - cd Tema1/CalificacionesEmpresa/; npm install
+  - cd Tema1/CalificacionesEmpresa/
 script: mocha
