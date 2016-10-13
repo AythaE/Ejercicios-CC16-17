@@ -14,4 +14,4 @@ var nueva_calificacion = new  Calificacion({
 assert(nueva_calificacion, "Creada calificación");
 assert.equal(nueva_calificacion.toString(), "Apple tiene una calificación de "+
   "10 hecha por Roberto Guzmán", "Calificacion.toString Fail");
-console.log("Si has llegado aquí, han pasado todos los tests");
+console.log("Si has llegado aquí, han pasado todos los tests de aserciones");
