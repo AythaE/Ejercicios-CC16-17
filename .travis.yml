@@ -7,5 +7,5 @@ node_js:
 services:
   - mongodb
 before_install:
-  - cd Tema1/CalificacionesEmpresa/
+  - cd Desarrollo_basado_en_pruebas/CalificacionesEmpresa/
 script: mocha
