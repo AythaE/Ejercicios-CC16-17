@@ -1,0 +1,21 @@
+---
+# This playbook deploys a simple standalone Tomcat 7 server.
+
+- hosts: server
+  remote_user: ubuntu
+  become: yes
+  become_method: sudo
+
+  vars:
+    repoLocation: /home/ubuntu/project/
+
+  tasks:
+    - name: apt-get update and upgrade
+      apt: update_cache=yes upgrade=yes
+
+    - name: install Git
+      apt: pkg=git state=latest install_recommends=yes
+
+    - name: clone the repository
+      git: repo=https://github.com/AythaE/DSS16-17.git dest={{repoLocation}} accept_hostkey=yes force=yes
+      become: no
