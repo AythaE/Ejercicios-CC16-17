@@ -1,0 +1,499 @@
+$ VAGRANT_LOG=debug vagrant up --provider libvirt
+ INFO global: Vagrant version: 1.8.7
+ INFO global: Ruby version: 2.2.5
+ INFO global: RubyGems version: 2.4.5.1
+ INFO global: VAGRANT_LOG="debug"
+ INFO global: VAGRANT_OLD_ENV_XDG_SEAT="seat0"
+ INFO global: VAGRANT_OLD_ENV_LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:"
+ INFO global: VAGRANT_OLD_ENV_PWD="/home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux"
+ INFO global: VAGRANT_OLD_ENV_JAVA_HOME="/usr/lib/jvm/java-8-oracle"
+ INFO global: VAGRANT_OLD_ENV_ORBIT_SOCKETDIR="/tmp/orbit-aythae"
+ INFO global: VAGRANT_OLD_ENV_USER="aythae"
+ INFO global: VAGRANT_INSTALLER_VERSION="2"
+ INFO global: VAGRANT_OLD_ENV_USERNAME="aythae"
+ INFO global: VAGRANT_OLD_ENV_GNOME_DESKTOP_SESSION_ID="this-is-deprecated"
+ INFO global: VAGRANT_OLD_ENV_DERBY_HOME="/usr/lib/jvm/java-8-oracle/db"
+ INFO global: VAGRANT_OLD_ENV_GIT_PS1_SHOWCOLORHINTS="1"
+ INFO global: VAGRANT_OLD_ENV_XDG_DATA_DIRS="/usr/share/gnome:/usr/local/share/:/usr/share/"
+ INFO global: VAGRANT_OLD_ENV_SHELL="/bin/bash"
+ INFO global: VAGRANT_OLD_ENV_GIO_LAUNCHED_DESKTOP_FILE="/usr/share/applications/terminator.desktop"
+ INFO global: VAGRANT_OLD_ENV_GIT_PS1_SHOWUNTRACKEDFILES="1"
+ INFO global: VAGRANT_OLD_ENV_GPG_AGENT_INFO="/run/user/1000/keyring/gpg:0:1"
+ INFO global: VAGRANT_OLD_ENV_SESSION_MANAGER="local/debian:@/tmp/.ICE-unix/1334,unix/debian:/tmp/.ICE-unix/1334"
+ INFO global: VAGRANT_OLD_ENV_WINDOWPATH="7"
+ INFO global: VAGRANT_INSTALLER_EMBEDDED_DIR="/opt/vagrant/embedded"
+ INFO global: VAGRANT_OLD_ENV_GIT_PS1_SHOWUPSTREAM="auto"
+ INFO global: VAGRANT_OLD_ENV_TERM="xterm"
+ INFO global: VAGRANT_OLD_ENV_WINDOWID="33554436"
+ INFO global: VAGRANT_OLD_ENV_SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"
+ INFO global: VAGRANT_OLD_ENV_GDMSESSION="default"
+ INFO global: VAGRANT_OLD_ENV_SSH_AGENT_PID="1371"
+ INFO global: VAGRANT_OLD_ENV_GDM_LANG="es_ES.UTF-8"
+ INFO global: VAGRANT_OLD_ENV_LOGNAME="aythae"
+ INFO global: VAGRANT_OLD_ENV_TERMINATOR_UUID="urn:uuid:9bce0690-4558-4e2a-b4aa-456216831b8c"
+ INFO global: VAGRANT_OLD_ENV_GIO_LAUNCHED_DESKTOP_FILE_PID="2027"
+ INFO global: VAGRANT_OLD_ENV_XDG_RUNTIME_DIR="/run/user/1000"
+ INFO global: VAGRANT_OLD_ENV_J2REDIR="/usr/lib/jvm/java-8-oracle/jre"
+ INFO global: VAGRANT_OLD_ENV_XDG_SESSION_ID="1"
+ INFO global: VAGRANT_OLD_ENV_LANG="es_ES.UTF-8"
+ INFO global: VAGRANT_OLD_ENV_DBUS_SESSION_BUS_ADDRESS="unix:abstract=/tmp/dbus-EBGXtY26Dx,guid=6fbbf4d4c9dddd88fbf3ec275847df91"
+ INFO global: VAGRANT_OLD_ENV_XDG_MENU_PREFIX="gnome-"
+ INFO global: VAGRANT_OLD_ENV_HOME="/home/aythae"
+ INFO global: VAGRANT_OLD_ENV_J2SDKDIR="/usr/lib/jvm/java-8-oracle"
+ INFO global: VAGRANT_OLD_ENV_DISPLAY=":0"
+ INFO global: VAGRANT_OLD_ENV_XDG_VTNR="7"
+ INFO global: VAGRANT_OLD_ENV_GIT_PS1_SHOWDIRTYSTATE="1"
+ INFO global: VAGRANT_OLD_ENV_PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin"
+ INFO global: VAGRANT_OLD_ENV_XAUTHORITY="/var/run/gdm3/auth-for-aythae-i1d9IF/database"
+ INFO global: VAGRANT_OLD_ENV_GJS_DEBUG_TOPICS="JS ERROR;JS LOG"
+ INFO global: VAGRANT_OLD_ENV_VAGRANT_LOG="debug"
+ INFO global: VAGRANT_OLD_ENV_COLORTERM="gnome-terminal"
+ INFO global: VAGRANT_EXECUTABLE="/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/bin/vagrant"
+ INFO global: VAGRANT_OLD_ENV_GJS_DEBUG_OUTPUT="stderr"
+ INFO global: VAGRANT_OLD_ENV__="/opt/vagrant/bin/vagrant"
+ INFO global: VAGRANT_OLD_ENV_XDG_SESSION_DESKTOP="default"
+ INFO global: VAGRANT_OLD_ENV_XDG_CURRENT_DESKTOP="GNOME"
+ INFO global: VAGRANT_INSTALLER_ENV="1"
+ INFO global: VAGRANT_OLD_ENV_SHLVL="2"
+ INFO global: VAGRANT_OLD_ENV_DESKTOP_SESSION="default"
+ INFO global: VAGRANT_INTERNAL_BUNDLERIZED="1"
+ INFO global: Plugins:
+ INFO global:   - CFPropertyList = 2.3.4
+ INFO global:   - builder = 3.2.2
+ INFO global:   - bundler = 1.12.5
+ INFO global:   - unf_ext = 0.0.7.2
+ INFO global:   - unf = 0.1.4
+ INFO global:   - domain_name = 0.5.20161129
+ INFO global:   - excon = 0.54.0
+ INFO global:   - fission = 0.5.0
+ INFO global:   - formatador = 0.2.5
+ INFO global:   - fog-core = 1.43.0
+ INFO global:   - multi_json = 1.12.1
+ INFO global:   - fog-json = 1.0.2
+ INFO global:   - ipaddress = 0.8.3
+ INFO global:   - xml-simple = 1.1.5
+ INFO global:   - fog-aliyun = 0.1.0
+ INFO global:   - mini_portile2 = 2.0.0
+ INFO global:   - nokogiri = 1.6.7.1
+ INFO global:   - fog-xml = 0.1.2
+ INFO global:   - fog-atmos = 0.1.0
+ INFO global:   - fog-aws = 0.13.0
+ INFO global:   - inflecto = 0.0.2
+ INFO global:   - fog-brightbox = 0.11.0
+ INFO global:   - fog-cloudatcost = 0.1.2
+ INFO global:   - fog-dynect = 0.0.3
+ INFO global:   - fog-ecloud = 0.3.0
+ INFO global:   - fog-google = 0.1.0
+ INFO global:   - fog-local = 0.3.1
+ INFO global:   - fog-openstack = 0.1.18
+ INFO global:   - fog-powerdns = 0.1.1
+ INFO global:   - fog-profitbricks = 3.0.0
+ INFO global:   - fog-rackspace = 0.1.2
+ INFO global:   - fog-radosgw = 0.0.5
+ INFO global:   - fog-riakcs = 0.1.0
+ INFO global:   - fog-sakuracloud = 1.7.5
+ INFO global:   - fog-serverlove = 0.1.2
+ INFO global:   - fog-softlayer = 1.1.4
+ INFO global:   - fog-storm_on_demand = 0.1.1
+ INFO global:   - fog-terremark = 0.1.0
+ INFO global:   - fog-vmfusion = 0.1.0
+ INFO global:   - fog-voxel = 0.1.0
+ INFO global:   - json = 2.0.2
+ INFO global:   - trollop = 2.1.2
+ INFO global:   - rbvmomi = 1.9.4
+ INFO global:   - fog-vsphere = 1.5.2
+ INFO global:   - fog-xenserver = 0.2.3
+ INFO global:   - fog = 1.38.0
+ INFO global:   - ruby-libvirt = 0.7.0
+ INFO global:   - fog-libvirt = 0.3.0
+ INFO global:   - http-cookie = 1.0.3
+ INFO global:   - iniparse = 1.4.2
+ INFO global:   - mime-types-data = 3.2016.0521
+ INFO global:   - mime-types = 3.1
+ INFO global:   - netrc = 0.11.0
+ INFO global:   - rest-client = 2.0.0
+ INFO global:   - vagrant-aws = 0.7.2
+ INFO global:   - vagrant-libvirt = 0.0.36
+ INFO global:   - vagrant-share = 1.1.6
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/virtualbox/plugin.rb
+ INFO manager: Registered plugin: VirtualBox provider
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/hyperv/plugin.rb
+ INFO manager: Registered plugin: Hyper-V provider
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/docker/plugin.rb
+ INFO manager: Registered plugin: docker-provider
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/provisioners/salt/plugin.rb
+ INFO manager: Registered plugin: salt
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/provisioners/ansible/plugin.rb
+ INFO manager: Registered plugin: ansible
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/provisioners/file/plugin.rb
+ INFO manager: Registered plugin: file
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/provisioners/cfengine/plugin.rb
+ INFO manager: Registered plugin: CFEngine Provisioner
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/provisioners/chef/plugin.rb
+ INFO manager: Registered plugin: chef
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/provisioners/shell/plugin.rb
+ INFO manager: Registered plugin: shell
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/provisioners/docker/plugin.rb
+ INFO manager: Registered plugin: docker
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/provisioners/puppet/plugin.rb
+ INFO manager: Registered plugin: puppet
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/redhat/plugin.rb
+ INFO manager: Registered plugin: Red Hat Enterprise Linux guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/dragonflybsd/plugin.rb
+ INFO manager: Registered plugin: DragonFly BSD guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/bsd/plugin.rb
+ INFO manager: Registered plugin: BSD-based guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/nixos/plugin.rb
+ INFO manager: Registered plugin: NixOS guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/linux/plugin.rb
+ INFO manager: Registered plugin: Linux guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/windows/plugin.rb
+ INFO manager: Registered plugin: Windows guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/darwin/plugin.rb
+ INFO manager: Registered plugin: Darwin guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/solaris11/plugin.rb
+ INFO manager: Registered plugin: Solaris 11 guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/openbsd/plugin.rb
+ INFO manager: Registered plugin: OpenBSD guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/gentoo/plugin.rb
+ INFO manager: Registered plugin: Gentoo guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/freebsd/plugin.rb
+ INFO manager: Registered plugin: FreeBSD guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/funtoo/plugin.rb
+ INFO manager: Registered plugin: Funtoo guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/solaris/plugin.rb
+ INFO manager: Registered plugin: Solaris guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/ubuntu/plugin.rb
+ INFO manager: Registered plugin: Ubuntu guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/photon/plugin.rb
+ INFO manager: Registered plugin: VMware Photon guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/fedora/plugin.rb
+ INFO manager: Registered plugin: Fedora guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/omnios/plugin.rb
+ INFO manager: Registered plugin: OmniOS guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/pld/plugin.rb
+ INFO manager: Registered plugin: PLD Linux guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/arch/plugin.rb
+ INFO manager: Registered plugin: Arch guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/suse/plugin.rb
+ INFO manager: Registered plugin: SUSE guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/coreos/plugin.rb
+ INFO manager: Registered plugin: CoreOS guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/slackware/plugin.rb
+ INFO manager: Registered plugin: Slackware guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/trisquel/plugin.rb
+ INFO manager: Registered plugin: Trisquel guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/tinycore/plugin.rb
+ INFO manager: Registered plugin: TinyCore Linux guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/amazon/plugin.rb
+ INFO manager: Registered plugin: Amazon Linux guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/smartos/plugin.rb
+ INFO manager: Registered plugin: SmartOS guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/debian/plugin.rb
+ INFO manager: Registered plugin: Debian guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/atomic/plugin.rb
+ INFO manager: Registered plugin: Atomic Host guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/mint/plugin.rb
+ INFO manager: Registered plugin: Mint guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/esxi/plugin.rb
+ INFO manager: Registered plugin: ESXi guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/guests/netbsd/plugin.rb
+ INFO manager: Registered plugin: NetBSD guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/redhat/plugin.rb
+ INFO manager: Registered plugin: Red Hat Enterprise Linux host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/bsd/plugin.rb
+ INFO manager: Registered plugin: BSD host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/linux/plugin.rb
+ INFO manager: Registered plugin: Linux host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/windows/plugin.rb
+ INFO manager: Registered plugin: Windows host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/darwin/plugin.rb
+ INFO manager: Registered plugin: Mac OS X host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/gentoo/plugin.rb
+ INFO manager: Registered plugin: Gentoo host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/freebsd/plugin.rb
+ INFO manager: Registered plugin: FreeBSD host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/null/plugin.rb
+ INFO manager: Registered plugin: null host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/arch/plugin.rb
+ INFO manager: Registered plugin: Arch host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/suse/plugin.rb
+ INFO manager: Registered plugin: SUSE host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/hosts/slackware/plugin.rb
+ INFO manager: Registered plugin: Slackware host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/synced_folders/rsync/plugin.rb
+ INFO manager: Registered plugin: RSync synced folders
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/synced_folders/smb/plugin.rb
+ INFO manager: Registered plugin: SMB synced folders
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/synced_folders/nfs/plugin.rb
+ INFO manager: Registered plugin: NFS synced folders
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/kernel_v1/plugin.rb
+ INFO manager: Registered plugin: kernel
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/communicators/ssh/plugin.rb
+ INFO manager: Registered plugin: ssh communicator
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/communicators/winrm/plugin.rb
+ INFO manager: Registered plugin: winrm communicator
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/kernel_v2/plugin.rb
+ INFO manager: Registered plugin: kernel
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/rdp/plugin.rb
+ INFO manager: Registered plugin: rdp command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/list-commands/plugin.rb
+ INFO manager: Registered plugin: list-commands command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/cap/plugin.rb
+ INFO manager: Registered plugin: cap command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/global-status/plugin.rb
+ INFO manager: Registered plugin: global-status command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/ssh/plugin.rb
+ INFO manager: Registered plugin: ssh command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/halt/plugin.rb
+ INFO manager: Registered plugin: halt command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/version/plugin.rb
+ INFO manager: Registered plugin: version command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/help/plugin.rb
+ INFO manager: Registered plugin: help command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/plugin/plugin.rb
+ INFO manager: Registered plugin: plugin command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/push/plugin.rb
+ INFO manager: Registered plugin: push command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/provider/plugin.rb
+ INFO manager: Registered plugin: provider command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/suspend/plugin.rb
+ INFO manager: Registered plugin: suspend command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/box/plugin.rb
+ INFO manager: Registered plugin: box command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/login/plugin.rb
+ INFO manager: Registered plugin: vagrant-login
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/package/plugin.rb
+ INFO manager: Registered plugin: package command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/ssh_config/plugin.rb
+ INFO manager: Registered plugin: ssh-config command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/powershell/plugin.rb
+ INFO manager: Registered plugin: powershell command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/up/plugin.rb
+ INFO manager: Registered plugin: up command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/destroy/plugin.rb
+ INFO manager: Registered plugin: destroy command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/init/plugin.rb
+ INFO manager: Registered plugin: init command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/reload/plugin.rb
+ INFO manager: Registered plugin: reload command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/port/plugin.rb
+ INFO manager: Registered plugin: port command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/resume/plugin.rb
+ INFO manager: Registered plugin: resume command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/snapshot/plugin.rb
+ INFO manager: Registered plugin: snapshot command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/provision/plugin.rb
+ INFO manager: Registered plugin: provision command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/commands/status/plugin.rb
+ INFO manager: Registered plugin: status command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/pushes/noop/plugin.rb
+ INFO manager: Registered plugin: noop
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/pushes/local-exec/plugin.rb
+ INFO manager: Registered plugin: local-exec
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/pushes/atlas/plugin.rb
+ INFO manager: Registered plugin: atlas
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/pushes/ftp/plugin.rb
+ INFO manager: Registered plugin: ftp
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/pushes/heroku/plugin.rb
+ INFO manager: Registered plugin: heroku
+ INFO global: Loading plugins!
+ INFO manager: Registered plugin: vagrant-share
+ INFO manager: Registered plugin: AWS
+ INFO manager: Registered plugin: libvirt
+ INFO vagrant: `vagrant` invoked: ["up", "--provider", "libvirt"]
+DEBUG vagrant: Creating Vagrant environment
+ INFO environment: Environment initialized (#<Vagrant::Environment:0x000000038d10f0>)
+ INFO environment:   - cwd: /home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux
+ INFO environment: Home path: /home/aythae/.vagrant.d
+DEBUG environment: Effective local data path: /home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux/.vagrant
+ INFO environment: Local data path: /home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux/.vagrant
+DEBUG environment: Creating: /home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux/.vagrant
+ INFO environment: Running hook: environment_plugins_loaded
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: environment_plugins_loaded #<Vagrant::Action::Builder:0x0000000361e9c0>
+ INFO environment: Running hook: environment_load
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: environment_load #<Vagrant::Action::Builder:0x0000000345df78>
+ INFO cli: CLI: [] "up" ["--provider", "libvirt"]
+DEBUG cli: Invoking command class: VagrantPlugins::CommandUp::Command ["--provider", "libvirt"]
+DEBUG command: 'Up' each target VM...
+ INFO loader: Set :root = ["#<Pathname:/home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux/Vagrantfile>"]
+DEBUG loader: Populating proc cache for #<Pathname:/home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux/Vagrantfile>
+DEBUG loader: Load procs for pathname: /home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux/Vagrantfile
+ INFO loader: Loading configuration in order: [:home, :root]
+DEBUG loader: Loading from: root (evaluating)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+DEBUG command: Getting target VMs for command. Arguments:
+DEBUG command:  -- names: ["default"]
+DEBUG command:  -- options: nil
+DEBUG command: Finding machine that match name: default
+ INFO loader: Set "22940720_machine_default" = []
+ INFO loader: Loading configuration in order: [:home, :root, "22940720_machine_default"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO base: VBoxManage path: VBoxManage
+ INFO subprocess: Starting process: ["/usr/bin/VBoxManage", "--version"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: stdout: 5.1.10r112026
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+DEBUG meta: Finding driver for VirtualBox version: 5.1.10
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_5_1
+ INFO base: VBoxManage path: VBoxManage
+ INFO environment: Getting machine: default (virtualbox)
+ INFO environment: Uncached load of machine.
+ INFO base: VBoxManage path: VBoxManage
+DEBUG meta: Finding driver for VirtualBox version: 5.1.10
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_5_1
+ INFO base: VBoxManage path: VBoxManage
+ INFO loader: Set "22940720_machine_default" = []
+ INFO loader: Loading configuration in order: [:home, :root, "22940720_machine_default"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO box_collection: Box not found: bugyt/archlinux (virtualbox)
+ INFO machine: Initializing machine: default
+ INFO machine:   - Provider: VagrantPlugins::ProviderVirtualBox::Provider
+ INFO machine:   - Box:
+ INFO machine:   - Data dir: /home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux/.vagrant/machines/default/virtualbox
+DEBUG virtualbox: Instantiating the driver for machine ID: nil
+ INFO base: VBoxManage path: VBoxManage
+DEBUG meta: Finding driver for VirtualBox version: 5.1.10
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_5_1
+ INFO base: VBoxManage path: VBoxManage
+ INFO machine: New machine ID: nil
+DEBUG virtualbox: Instantiating the driver for machine ID: nil
+ INFO base: VBoxManage path: VBoxManage
+DEBUG meta: Finding driver for VirtualBox version: 5.1.10
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_5_1
+ INFO base: VBoxManage path: VBoxManage
+ INFO interface: Machine: metadata ["provider", :virtualbox, {:target=>:default}]
+ INFO command: With machine: default (#<VagrantPlugins::ProviderVirtualBox::Provider:0x0000000348a410 @logger=#<Log4r::Logger:0x00000003487f80 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<Log4r::Logger:0x00000003a7b6a8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00000003a62540 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Mutex:0x00000003a624c8>, @name="stderr", @level=0, @formatter=#<Log4r::DefaultFormatter:0x00000003a5b5b0 @depth=7>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00000003a7b590 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @machine=#<Vagrant::Machine: default (VagrantPlugins::ProviderVirtualBox::Provider)>, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Meta:0x00000003993560 @logger=#<Log4r::Logger:0x00000003951b88 @fullname="vagrant::provider::virtualbox::meta", @outputters=[], @additive=true, @name="meta", @path="vagrant::provider::virtualbox", @parent=#<Log4r::Logger:0x00000003487f80 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<Log4r::Logger:0x00000003a7b6a8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00000003a62540 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Mutex:0x00000003a624c8>, @name="stderr", @level=0, @formatter=#<Log4r::DefaultFormatter:0x00000003a5b5b0 @depth=7>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00000003a7b590 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @level=1, @trace=false>, @interrupted=false, @vboxmanage_path="VBoxManage", @uuid=nil, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Version_5_1:0x00000003845168 @logger=#<Log4r::Logger:0x000000037bea28 @fullname="vagrant::provider::virtualbox_5_1", @outputters=[], @additive=true, @name="virtualbox_5_1", @path="vagrant::provider", @parent=#<Log4r::Logger:0x00000003a7b6a8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00000003a62540 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Mutex:0x00000003a624c8>, @name="stderr", @level=0, @formatter=#<Log4r::DefaultFormatter:0x00000003a5b5b0 @depth=7>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00000003a7b590 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @interrupted=false, @vboxmanage_path="VBoxManage", @uuid=nil>, @version="5.1.10">, @cap_logger=#<Log4r::Logger:0x00000002c323d0 @fullname="vagrant::capability_host::vagrantplugins::providervirtualbox::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providervirtualbox", @parent=#<Log4r::Logger:0x00000003a7b6a8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00000003a62540 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Mutex:0x00000003a624c8>, @name="stderr", @level=0, @formatter=#<Log4r::DefaultFormatter:0x00000003a5b5b0 @depth=7>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00000003a7b590 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @cap_host_chain=[[:virtualbox, #<#<Class:0x00000002c32f88>:0x00000002a1d108>]], @cap_args=[#<Vagrant::Machine: default (VagrantPlugins::ProviderVirtualBox::Provider)>], @cap_caps={:virtualbox=>#<Vagrant::Registry:0x00000002c32d30 @items={:forwarded_ports=>#<Proc:0x000000036ad710@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/virtualbox/plugin.rb:27>, :nic_mac_addresses=>#<Proc:0x000000036ad670@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/virtualbox/plugin.rb:32>, :public_address=>#<Proc:0x000000036ad648@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/virtualbox/plugin.rb:37>, :snapshot_list=>#<Proc:0x000000036ad620@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/virtualbox/plugin.rb:42>}, @results_cache={}>, :hyperv=>#<Vagrant::Registry:0x00000002c32bc8 @items={:public_address=>#<Proc:0x00000003acac58@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/hyperv/plugin.rb:25>, :snapshot_list=>#<Proc:0x00000003acabb8@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/hyperv/plugin.rb:30>}, @results_cache={}>, :docker=>#<Vagrant::Registry:0x00000002c32948 @items={:public_address=>#<Proc:0x0000000368fa58@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/docker/plugin.rb:60>, :proxy_machine=>#<Proc:0x0000000368f968@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/docker/plugin.rb:65>}, @results_cache={}>, :libvirt=>#<Vagrant::Registry:0x00000002c32678 @items={:nic_mac_addresses=>#<Proc:0x00000002c51640@/home/aythae/.vagrant.d/gems/gems/vagrant-libvirt-0.0.36/lib/vagrant-libvirt/plugin.rb:38>}, @results_cache={}>}>)
+ INFO host: Autodetecting host type for [#<Vagrant::Environment: /home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux>]
+DEBUG host: Trying: redhat
+DEBUG host: Trying: darwin
+DEBUG host: Trying: gentoo
+DEBUG host: Trying: freebsd
+DEBUG host: Trying: arch
+DEBUG host: Trying: suse
+DEBUG host: Trying: slackware
+DEBUG host: Trying: bsd
+DEBUG host: Trying: linux
+ INFO host: Detected: linux!
+DEBUG host: Searching for cap: provider_install_libvirt
+DEBUG host: Checking in: linux
+DEBUG command: Getting target VMs for command. Arguments:
+DEBUG command:  -- names: ["default"]
+DEBUG command:  -- options: {:provider=>"libvirt"}
+DEBUG command: Finding machine that match name: default
+ INFO environment: Getting machine: default (libvirt)
+ INFO environment: Uncached load of machine.
+ INFO loader: Set "22940720_machine_default" = []
+ INFO loader: Loading configuration in order: [:home, :root, "22940720_machine_default"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO box_collection: Box not found: bugyt/archlinux (libvirt)
+ INFO machine: Initializing machine: default
+ INFO machine:   - Provider: VagrantPlugins::ProviderLibvirt::Provider
+ INFO machine:   - Box:
+ INFO machine:   - Data dir: /home/aythae/Escritorio/Cloud Computing/Ejercicios-CC16-17/Orquestacion_de_maquinas_virtuales/vagrant/archlinux/.vagrant/machines/default/libvirt
+ INFO machine: New machine ID: nil
+ INFO interface: Machine: metadata ["provider", :libvirt, {:target=>:default}]
+ INFO command: With machine: default (#<VagrantPlugins::ProviderLibvirt::Provider:0x00000003925e48 @machine=#<Vagrant::Machine: default (VagrantPlugins::ProviderLibvirt::Provider)>, @cap_logger=#<Log4r::Logger:0x000000039258f8 @fullname="vagrant::capability_host::vagrantplugins::providerlibvirt::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providerlibvirt", @parent=#<Log4r::Logger:0x00000003a7b6a8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00000003a62540 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Mutex:0x00000003a624c8>, @name="stderr", @level=0, @formatter=#<Log4r::DefaultFormatter:0x00000003a5b5b0 @depth=7>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00000003a7b590 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @cap_host_chain=[[:libvirt, #<#<Class:0x00000003925df8>:0x000000038f0d10>]], @cap_args=[#<Vagrant::Machine: default (VagrantPlugins::ProviderLibvirt::Provider)>], @cap_caps={:virtualbox=>#<Vagrant::Registry:0x00000003925cb8 @items={:forwarded_ports=>#<Proc:0x000000036ad710@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/virtualbox/plugin.rb:27>, :nic_mac_addresses=>#<Proc:0x000000036ad670@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/virtualbox/plugin.rb:32>, :public_address=>#<Proc:0x000000036ad648@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/virtualbox/plugin.rb:37>, :snapshot_list=>#<Proc:0x000000036ad620@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/virtualbox/plugin.rb:42>}, @results_cache={}>, :hyperv=>#<Vagrant::Registry:0x00000003925bf0 @items={:public_address=>#<Proc:0x00000003acac58@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/hyperv/plugin.rb:25>, :snapshot_list=>#<Proc:0x00000003acabb8@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/hyperv/plugin.rb:30>}, @results_cache={}>, :docker=>#<Vagrant::Registry:0x00000003925b28 @items={:public_address=>#<Proc:0x0000000368fa58@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/docker/plugin.rb:60>, :proxy_machine=>#<Proc:0x0000000368f968@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/plugins/providers/docker/plugin.rb:65>}, @results_cache={}>, :libvirt=>#<Vagrant::Registry:0x00000003925a88 @items={:nic_mac_addresses=>#<Proc:0x00000002c51640@/home/aythae/.vagrant.d/gems/gems/vagrant-libvirt-0.0.36/lib/vagrant-libvirt/plugin.rb:38>}, @results_cache={}>}>)
+ INFO interface: info: Bringing machine 'default' up with 'libvirt' provider...
+ INFO batch_action: Enabling parallelization by default.
+ INFO batch_action: Disabling parallelization because only executing one action
+ INFO batch_action: Batch action will parallelize: false
+ INFO batch_action: Starting action: #<Vagrant::Machine:0x000000039b9f08> up {:destroy_on_error=>true, :install_provider=>true, :parallel=>true, :provision_ignore_sentinel=>false, :provision_types=>nil, :provider=>"libvirt"}
+ INFO machine: Calling action: up on provider Libvirt (new)
+DEBUG environment: Attempting to acquire process-lock: machine-action-8a5e82d48011188c29fc977e697597a8
+DEBUG environment: Attempting to acquire process-lock: dotlock
+ INFO environment: Acquired process lock: dotlock
+ INFO environment: Released process lock: dotlock
+ INFO environment: Acquired process lock: machine-action-8a5e82d48011188c29fc977e697597a8
+ INFO interface: Machine: action ["up", "start", {:target=>:default}]
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x000000038dcc48>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::ConfigValidate:0x0000000386e518>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x0000000386e4f0>
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x000000037e7d38>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::IsCreated:0x000000037e4cc8>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::IsCreated:0x000000037e4cc8>
+ INFO driver: Connecting to Libvirt (qemu:///system?no_verify=1&keyfile=/home/aythae/.ssh/id_rsa) ...
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x000000036e1588>
+ INFO warden: Calling IN action: #<Proc:0x000000029062d8@/opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/warden.rb:94 (lambda)>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::SetNameOfDomain:0x000000036e14e8>
+ERROR warden: Error occurred: Initialization parameters must be an attributes hash, got NilClass nil
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: Initialization parameters must be an attributes hash, got NilClass nil
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: Initialization parameters must be an attributes hash, got NilClass nil
+ INFO warden: Beginning recovery process...
+ INFO warden: Calling recover: #<Vagrant::Action::Builtin::Call:0x0000000386e4f0>
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO environment: Released process lock: machine-action-8a5e82d48011188c29fc977e697597a8
+ INFO environment: Running hook: environment_unload
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: environment_unload #<Vagrant::Action::Builder:0x00000003a15ec0>
+/home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/core/collection.rb:87:in `new': Initialization parameters must be an attributes hash, got NilClass nil (ArgumentError)
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/core/collection.rb:77:in `block in load'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/core/collection.rb:77:in `each'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/core/collection.rb:77:in `load'
+	from /home/aythae/.vagrant.d/gems/gems/fog-libvirt-0.3.0/lib/fog/libvirt/models/compute/volumes.rb:11:in `all'
+	from /home/aythae/.vagrant.d/gems/gems/fog-libvirt-0.3.0/lib/fog/libvirt/models/compute/server.rb:137:in `block in volumes'
+	from /home/aythae/.vagrant.d/gems/gems/fog-libvirt-0.3.0/lib/fog/libvirt/models/compute/server.rb:137:in `map'
+	from /home/aythae/.vagrant.d/gems/gems/fog-libvirt-0.3.0/lib/fog/libvirt/models/compute/server.rb:137:in `volumes'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/formatador.rb:78:in `block in object_attributes'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/formatador.rb:77:in `map'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/formatador.rb:77:in `object_attributes'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/formatador.rb:63:in `attribute_string'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/formatador.rb:53:in `object_string'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/formatador.rb:14:in `block in format'
+	from /home/aythae/.vagrant.d/gems/gems/formatador-0.2.5/lib/formatador.rb:92:in `indent'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/formatador.rb:41:in `indent'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/formatador.rb:14:in `format'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/core/model.rb:24:in `inspect'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/core/collection.rb:19:in `inspect'
+	from /home/aythae/.vagrant.d/gems/gems/fog-core-1.43.0/lib/fog/core/collection.rb:19:in `to_s'
+	from /home/aythae/.vagrant.d/gems/gems/vagrant-libvirt-0.0.36/lib/vagrant-libvirt/action/set_name_of_domain.rb:18:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/warden.rb:34:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/warden.rb:95:in `block in finalize_action'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/warden.rb:34:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/warden.rb:34:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/builder.rb:116:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/runner.rb:66:in `block in run'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/util/busy.rb:19:in `busy'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/runner.rb:66:in `run'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/builtin/call.rb:53:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/warden.rb:34:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/builtin/config_validate.rb:25:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/warden.rb:34:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/builder.rb:116:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/runner.rb:66:in `block in run'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/util/busy.rb:19:in `busy'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/action/runner.rb:66:in `run'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/machine.rb:225:in `action_raw'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/machine.rb:200:in `block in action'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/environment.rb:567:in `lock'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/machine.rb:186:in `call'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/machine.rb:186:in `action'
+	from /opt/vagrant/embedded/gems/gems/vagrant-1.8.7/lib/vagrant/batch_action.rb:82:in `block (2 levels) in run'
